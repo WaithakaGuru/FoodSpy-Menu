@@ -9,11 +9,11 @@ function Dish ({...props})
             <div className="image-holder">
                 <img src={props.imagePath} alt="image" className="dish-image" />
                 <span className="discount">{props.discount}</span>
-                <span className="rating">
+                <span className={props.rating > 0? "rating": "unrated"}>
                     {props.rating > 0 && (
                             <>
                                 <FaStar className="rating-star" />
-                                {props.rating}
+                                {props.rating}.00
                             </>
                         )
                     }

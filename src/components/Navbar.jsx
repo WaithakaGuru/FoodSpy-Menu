@@ -3,7 +3,7 @@ import navData from "../data/nav_data"
 function Nav ({props}){
     return(
         <div className={"nav-item"}>
-            {props.icon}
+            <div className="icon">{props.icon}</div>
             {props.category}
         </div>
     )
