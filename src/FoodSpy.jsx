@@ -7,10 +7,10 @@ function FoodSpy() {
        <>
             <Header/>
             <Dishes/>
-            <footer>
+            {/* <footer>
                 Welcome Again to Food Spy
                 Hunt for your dish
-            </footer>
+            </footer> */}
         </>
     )
 }

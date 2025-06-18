@@ -1,8 +1,8 @@
-import navData from "../data/nav_data.jsx"
+import navData from "../data/nav_data"
 
-function Nav (props){
+function Nav ({props}){
     return(
-        <div className="nav-item">
+        <div className={"nav-item"}>
             {props.icon}
             {props.category}
         </div>
@@ -12,9 +12,10 @@ function Nav (props){
 export default function Navbar () {
     return(
         <div className="nav-holder">
-           { navData.map(nav=> {
-             <Nav props={nav} />
-            })}
+            { 
+               navData.map((nav, idx)=>
+                 <Nav props={nav} key={idx}/>) 
+            }
         </div>
     )
 }

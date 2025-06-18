@@ -7,40 +7,28 @@ import { LiaPepperHotSolid } from "react-icons/lia";
 
 const navData = [
     { 
-        All: {
-            icon: <IoFastFoodOutline />,
-            category: "All"
-        }
+       icon: <IoFastFoodOutline />,
+        category: "All"
     },
     { 
-        Drinks: {
-            icon: <BiDrink />,
-            category: "Drinks"
-        }
+        icon: <BiDrink />,
+        category: "Drinks"
     },
     { 
-        Pizza: {
-            icon: <IoPizzaOutline />,
-            category: "Pizza"
-        }
+        icon: <IoPizzaOutline />,
+        category: "Pizza"
     },
     { 
-        Salad: {
-            icon: <TbSalad />,
-            category: "Salad"
-        }
+        icon: <TbSalad />,
+        category: "Salad"
     },
     { 
-        Spicy: {
-            icon: <LiaPepperHotSolid/>,
-            category: "Spicy"
-        }
+        icon: <LiaPepperHotSolid/>,
+        category: "Spicy"
     },
     { 
-        Sweets: {
-            icon: <RiCake3Line />,
-            category: "Sweets"
-        }
+        icon: <RiCake3Line />,
+        category: "Sweets"
     }
 ]
 export default navData;

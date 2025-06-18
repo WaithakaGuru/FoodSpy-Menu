@@ -19,7 +19,7 @@
 }
 
 html{
-  font-size: 10px;
+  font-size: 15px;
 }
 body *{
   display: block;
@@ -42,15 +42,17 @@ body{
   align-items: center;
 }
 
-header.header{
+/* header.header{
 
-}
+} */
 
 .nav-holder{
 
+  height: 5rem;
+  border: #892a3d 1px solid ;
 }
 
-.nav-item{
+/* .nav-item{
 
 }
 
@@ -92,13 +94,13 @@ header.header{
 
 .dish-price{
 
-}
+} */
 
 footer{
   background-color: var(--dark-text-color);
   color: var(--light-pink);
   font-weight: bolder;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 1rem auto;
   width: 100%;
   padding: 2rem 4rem;

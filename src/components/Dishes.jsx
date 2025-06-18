@@ -1,7 +1,7 @@
 import dishesData from "../data/dishes_data.js";
 import { FaStar } from "react-icons/fa";
 
-function Dish (props) 
+function Dish ({...props}) 
 {
     return(
         <>
@@ -10,10 +10,12 @@ function Dish (props)
                 <img src={props.imagePath} alt="image" className="dish-image" />
                 <span className="discount">{props.discount}</span>
                 <span className="rating">
-                    {
-                        props.rating > 0 ?? 
-                       ` ${<FaStar className="rating-star"/>}
-                        ${props.rating}`
+                    {props.rating > 0 && (
+                            <>
+                                <FaStar className="rating-star" />
+                                {props.rating}
+                            </>
+                        )
                     }
                 </span>
             </div>
@@ -30,9 +32,9 @@ function Dish (props)
 export default function Dishes () {
     return(
        <div className="dish-container">
-            {dishesData.forEach(dishData => {
-                <Dish props={dishData} />
-            })}
+            {dishesData.map((dishData, idx) => 
+                <Dish {...dishData} key={idx}/>
+        )}
        </div>
     )
 }
