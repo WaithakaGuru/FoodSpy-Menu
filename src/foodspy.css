@@ -1,0 +1,108 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --light-text-color: #a6a6a6;
+  --main-back-color: #f3f3f3;
+  --dish-back-color: #fff;
+  --dark-text-color: #242622;
+  --cta-btn-back-color: #ed2434;
+  --light-pink: #fed5da;
+  --dark-pink: #892a3d;
+  --discount-tag-back-color: #ed9d07;
+}
+
+*{
+  position: relative;
+}
+
+html{
+  font-size: 10px;
+}
+body *{
+  display: block;
+}
+body{ 
+  border: 1px solid red ;
+  height: 100vh;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: var(--main-back-color);
+}
+
+#root{
+  width: 85%;
+  margin: 1rem auto !important;
+  border: 1px solid blue;
+  overflow-x: hidden;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header.header{
+
+}
+
+.nav-holder{
+
+}
+
+.nav-item{
+
+}
+
+.dish-container{
+
+}
+
+.dish-holder{
+
+}
+
+.image-holder{
+
+}
+
+.dish-image{
+
+}
+
+.discount{
+
+}
+
+.rating{
+
+}
+
+.dish-info{
+
+}
+
+.dish-title{
+
+}
+
+.dish-description{
+
+}
+
+.dish-price{
+
+}
+
+footer{
+  background-color: var(--dark-text-color);
+  color: var(--light-pink);
+  font-weight: bolder;
+  font-size: 3rem;
+  margin: 1rem auto;
+  width: 100%;
+  padding: 2rem 4rem;
+  min-height: 5rem;
+  text-align: center;
+  place-content: center;
+}
