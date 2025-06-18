@@ -7,10 +7,14 @@ function FoodSpy() {
        <>
             <Header/>
             <Dishes/>
-            {/* <footer>
-                Welcome Again to Food Spy
-                Hunt for your dish
-            </footer> */}
+            <footer>
+                <h2>Welcome Again to FoodSpy</h2>
+                <div>
+                    <span>FoodSpy &copy; 2025</span>
+                    <span>Built with &hearts; by Waithaka</span>
+                   <a href="https://github.com/WaithakaGuru">Visit: WaithakaGuru</a> 
+                </div>
+            </footer>
         </>
     )
 }

@@ -227,15 +227,30 @@ header.header, .dish-container {
   margin-top: 0.5rem;
 }
 
+footer * {
+  display: inline;
+  position: relative;
+}
+
 footer {
   background-color: var(--dark-text-color);
   color: var(--light-pink);
   font-weight: bolder;
-  font-size: 2rem;
-  margin: 1rem auto;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto 0;
   width: 100%;
   padding: 2rem 4rem;
   min-height: 5rem;
   text-align: center;
-  place-content: center;
+  gap: 1rem
+}
+
+footer div *{
+  padding: 1rem 2.5rem;
+}
+
+footer a {
+  color: var(--discount-tag-back-color)
 }
