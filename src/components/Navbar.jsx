@@ -12,6 +12,7 @@ function Nav ({props}){
 export default function Navbar () {
     return(
         <div className="nav-holder">
+            <span className="logo">FoodSpy</span>
             { 
                navData.map((nav, idx)=>
                  <Nav props={nav} key={idx}/>) 

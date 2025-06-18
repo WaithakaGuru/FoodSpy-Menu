@@ -1,6 +1,6 @@
 const dishesData = [
     {
-        imagePath: "./",
+        imagePath: "./Doublepatty.jpeg",
         discount : "20%",
         rating: 5.00,
         dishTitle: "Double Patty Veg Burger",
@@ -8,7 +8,7 @@ const dishesData = [
         price: 40.00
     },
     {
-        imagePath: "./",
+        imagePath: "./chickB.jpg",
         discount : "30%",
         rating: 5.00,
         dishTitle: "Chicken Burger",
@@ -16,7 +16,7 @@ const dishesData = [
         price: 17.56
     },
     {
-        imagePath: "./",
+        imagePath: "./pizza.jpeg",
         discount : "20%",
         rating: 4.00,
         dishTitle: "Pineapple Pizza",
@@ -24,7 +24,7 @@ const dishesData = [
         price: 24.50
     },
     {
-        imagePath: "./",
+        imagePath: "./pineappleSoup.jpg",
         discount : "0%",
         rating: 0,
         dishTitle: "Pinapple Soup",
@@ -32,7 +32,7 @@ const dishesData = [
         price: 11.02
     },
     {
-        imagePath: "./",
+        imagePath: "./Guaca.jpg",
         discount : "17%",
         rating: 3.00,
         dishTitle: "Momos",
@@ -40,7 +40,7 @@ const dishesData = [
         price: 50.00
     },
     {
-        imagePath: "./",
+        imagePath: "./pancakes.jpg",
         discount : "6%",
         rating: 0,
         dishTitle: "Pancake",
@@ -48,7 +48,7 @@ const dishesData = [
         price: 12.20
     },
     {
-        imagePath: "./",
+        imagePath: "./honeybread.jpeg",
         discount : "6%",
         rating: 4.00,
         dishTitle: "Honey Bread",
@@ -56,7 +56,7 @@ const dishesData = [
         price: 15.00
     },
     {
-        imagePath: "./",
+        imagePath: "./salad.jpeg",
         discount : "17%",
         rating: 4.00,
         dishTitle: "Alo Tikki Burger",
@@ -64,7 +64,7 @@ const dishesData = [
         price: 50.00
     },
     {
-        imagePath: "./",
+        imagePath: "./green-salad.jpg",
         discount : "10%",
         rating: 0,
         dishTitle: "Green Salad",

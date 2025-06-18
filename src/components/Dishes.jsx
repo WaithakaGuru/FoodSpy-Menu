@@ -22,7 +22,7 @@ function Dish ({...props})
             <div className="dish-info">
                 <h3 className="dish-title">{props.dishTitle}</h3>
                 <p className="dish-description">{props.dishInfo}</p>
-                <span className="dish-price">${props.price}</span>
+                <span className="dish-price">${props.price}.00</span>
             </div>
         </div>
         </>
