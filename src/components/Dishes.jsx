@@ -1,3 +1,4 @@
+
 import dishesData from "../data/dishes_data.js";
 import { FaStar } from "react-icons/fa";
 
@@ -22,12 +23,13 @@ function Dish ({...props})
             <div className="dish-info">
                 <h3 className="dish-title">{props.dishTitle}</h3>
                 <p className="dish-description">{props.dishInfo}</p>
-                <span className="dish-price">${props.price}.00</span>
+                <span className="dish-price">${props.price}</span>
             </div>
         </div>
         </>
     )
 }
+
 
 export default function Dishes () {
     return(

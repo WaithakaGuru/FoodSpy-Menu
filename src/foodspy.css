@@ -67,7 +67,7 @@ header.header, .dish-container {
 }
 
 .logo{
-  font-size: large;
+  font-size: 1.35rem;
   font-weight: 800;
   color: var(--discount-tag-back-color)
 }
@@ -85,6 +85,11 @@ header.header, .dish-container {
 @media screen  and (max-width: 1050px) {
     .nav-holder {
       border-right-color: var(--cta-btn-back-color);
+    }
+    .logo{
+      border: 4px solid transparent;
+      border-right-color: #ed9d07;
+      border-radius: 0;
     }
 }
 
