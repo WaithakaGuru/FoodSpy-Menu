@@ -27,7 +27,7 @@
 }
 
 html{
-  font-size: 12px;
+  font-size: 15px;
 }
 body {
   background: var(--main-back-color);
@@ -63,7 +63,7 @@ header.header {
 
 header.header, .dish-container {
   width: 98%;
-  max-width: 1300px;
+  max-width: 1150px;
 }
 
 .logo{
