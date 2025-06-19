@@ -42,7 +42,7 @@ const dishesData = [
     {
         imagePath: "./pancakes.jpg",
         discount : "6%",
-        rating: 0,
+        rating: 2,
         dishTitle: "Pancake",
         dishInfo: "Start your day on a delightful note with our fluffy Morning Delight.",
         price: "12.20"
@@ -74,7 +74,7 @@ const dishesData = [
     {
         imagePath: "./Guaca.jpg",
         discount : "12%",
-        rating: 0,
+        rating: 5,
         dishTitle: "Guacamole",
         dishInfo: "A tasty dessert to go alogn with your crips and meal. will leave you wanting for more.",
         price: "35.00"
@@ -82,7 +82,7 @@ const dishesData = [
     {
         imagePath: "./salad.jpeg",
         discount : "15%",
-        rating: 0,
+        rating: 5,
         dishTitle: "Beef Steaks",
         dishInfo: "Delicious and tender beef chops. Plate for two.",
         price: "150.00"
@@ -90,7 +90,7 @@ const dishesData = [
     {
         imagePath: "./chickB.jpg",
         discount : "9%",
-        rating: 0,
+        rating: 4,
         dishTitle: "Chicken Breasts",
         dishInfo: "Spicy and hot with a signature topping, a promise to keep you at FoodSpy.",
         price: "26.45"
