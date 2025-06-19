@@ -227,6 +227,12 @@ header.header, .dish-container {
   margin-top: 0.5rem;
 }
 
+@media screen and (max-width: 745px) and (min-width: 525px){
+  .dish-container{
+     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
+
 footer * {
   display: inline;
   position: relative;
