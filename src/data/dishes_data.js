@@ -8,7 +8,7 @@ const dishesData = [
         price: "40.00"
     },
     {
-        imagePath: "./chickB.jpg",
+        imagePath: "./spicy-chicken-burgers.jpg",
         discount : "30%",
         rating: 5,
         dishTitle: "Chicken Burger",
@@ -32,7 +32,7 @@ const dishesData = [
         price: "11.02"
     },
     {
-        imagePath: "./Guaca.jpg",
+        imagePath: "./momos2.jpeg",
         discount : "17%",
         rating: 3,
         dishTitle: "Momos",
@@ -56,7 +56,7 @@ const dishesData = [
         price: "15.00"
     },
     {
-        imagePath: "./salad.jpeg",
+        imagePath: "./Alooburger.jpg",
         discount : "17%",
         rating: 4,
         dishTitle: "Alo Tikki Burger",
@@ -70,6 +70,30 @@ const dishesData = [
         dishTitle: "Green Salad",
         dishInfo: "Refreh your senses with our Garden Fresh Green Salad - a vibrant.",
         price: "45.00"
+    },
+    {
+        imagePath: "./Guaca.jpg",
+        discount : "12%",
+        rating: 0,
+        dishTitle: "Guacamole",
+        dishInfo: "A tasty dessert to go alogn with your crips and meal. will leave you wanting for more.",
+        price: "35.00"
+    },
+    {
+        imagePath: "./salad.jpeg",
+        discount : "15%",
+        rating: 0,
+        dishTitle: "Beef Steaks",
+        dishInfo: "Delicious and tender beef chops. Plate for two.",
+        price: "150.00"
+    },
+    {
+        imagePath: "./chickB.jpg",
+        discount : "9%",
+        rating: 0,
+        dishTitle: "Chicken Breasts",
+        dishInfo: "Spicy and hot with a signature topping, a promise to keep you at FoodSpy.",
+        price: "26.45"
     },
 ]
 
