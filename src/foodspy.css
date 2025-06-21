@@ -253,8 +253,16 @@ footer {
   gap: 1rem
 }
 
+footer div {
+  width: 70%;
+  max-width: 45rem;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 footer div *{
-  padding: 1rem 2.5rem;
+  padding: 1rem 0;
 }
 
 footer a {
